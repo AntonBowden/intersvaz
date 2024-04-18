@@ -22,17 +22,14 @@ const AboutSectionOne = () => {
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
+            <div className="w-full px-4">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Электронная подпись, СБИС, Электронные торги, Online кассы"
+                paragraph={`ООО "ИнтерСвязь" работает на рынке IT технологий начиная с 2008 года. Имеет все необходимые лицензии ФСБ и проходит своевременные проверки на осуществление разработки, производства, распространения шифровальных (криптографических) средств, защищённых информационных и телекоммуникационных систем, выполнения работ, оказания услуг в области шифрования информации, а также технического обслуживания.`}
                 mb="44px"
               />
 
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
+              <div className="mb-12 max-w-[100%] lg:mb-0" data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Premium quality" />
@@ -49,7 +46,7 @@ const AboutSectionOne = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2">
+            {/* <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
                   src="/images/about/about-image.svg"
@@ -64,7 +61,7 @@ const AboutSectionOne = () => {
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
