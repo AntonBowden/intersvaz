@@ -1,5 +1,3 @@
-import NewsLatterBox from "./NewsLatterBox";
-
 const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden">

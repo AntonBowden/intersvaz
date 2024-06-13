@@ -78,12 +78,6 @@ const menuData: Menu[] = [
         path: "/error",
         newTab: false,
       },
-      {
-        id: 49,
-        title: "FAQs",
-        path: "/faqs",
-        newTab: false,
-      },
     ],
   },
 ];
