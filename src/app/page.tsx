@@ -5,6 +5,7 @@ import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
+import Brands from "@/components/Brands";
 
 import { Metadata } from "next";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
+      <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
       <Pricing />

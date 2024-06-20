@@ -20,35 +20,35 @@ const EReportingPage = () => {
                 </h2>
 
                 <div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    ООО "ИнтерСвязь" представляет Вам программный комплекс
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    {`ООО "ИнтерСвязь" представляет Вам программный комплекс
                     «СБиС++ Электронная отчетность», который позволяет
                     организовать электронный защищенный и юридически значимый
-                    документооборот с различными контролирующими органами:
+                    документооборот с различными контролирующими органами:`}
                   </p>
-                  <ul className="mb-10 list-inside list-disc text-body-color">
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                  <ul className="mb-10 list-inside list-disc text-body-color dark:text-body-color-dark">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Федеральной налоговой службой
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Социальным фондом России (СФР)
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Федеральной службой государственной статистики
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Россалкогольрегулированием (ФСРАР)
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       ЕГАИС
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Росприроднадзором
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Таможней
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Честным знаком (маркировка)
                     </li>
                   </ul>
@@ -64,25 +64,25 @@ const EReportingPage = () => {
                     </div>
                   </div>
 
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     «СБиС++ Электронная отчетность» - это универсальный
                     инструмент, позволяющий создать отчет, проконтролировать его
                     на наличие ошибок и затем уже отправить его по
                     телекоммуникационным каналам связи.
                   </p>
 
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Система Сбис++ включает:
                   </p>
 
-                  <ul className="mb-10 list-inside list-disc text-body-color">
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                  <ul className="mb-10 list-inside list-disc text-body-color dark:text-body-color-dark">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       ЭТО ЕДИНАЯ СИСТЕМА, с помощью которой Вы подготовите и
                       сдадите бухгалтерские и налоговые отчеты в ФНС, документы
                       в СФР и Росстат и сформируете отчеты в ЕГАИС, ФСРАР,
                       Честный знак и др.
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       ЭТО ИНТУИТИВНО ПОНЯТНАЯ СИСТЕМА, не требующая
                       дополнительного обучения. Удобный рабочий стол и календарь
                       налогоплательщика эффективно организуют Вашу работу. Все
@@ -91,27 +91,27 @@ const EReportingPage = () => {
                       сама подсказывает, какие шаги нужно делать. СБиС совместим
                       с любыми бухгалтерскими программами.
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       ЭТО БОЛЬШЕ, ЧЕМ ОТЧЕТНОСТЬ. Используя систему, Вы
                       оперативно делаете сверку расчетов по налогам с ФНС и ПФ.
                       Получаете сведения из ЕГРЮЛ и информационные рассылки из
                       государственных органов.
                     </li>
 
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       ЭТО ВАШ ЛИЧНЫЙ КОНСУЛЬТАНТ. Система поможет заполнить
                       любой отчет и проверит его перед отправкой. У Вас всегда
                       под рукой все необходимые документы – законы, кодексы,
                       ПБУ, Инструкции и т. д.
                     </li>
 
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       ЭТО ВАШ ЛИЧНЫЙ АУДИТОР. Система проведет камеральную
                       проверку отчетов, оценит риск налоговой проверки, выполнит
                       финансовый анализ деятельности Вашего предприятия.
                     </li>
 
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       СИСТЕМА для ЭЛЕКТРОННОГО ДОКУМЕНТООБОРОТА. Система
                       позволит вам наладить электронный документооборот с вашими
                       контрагентами. Вы сможете контролировать внутреннюю
@@ -120,7 +120,7 @@ const EReportingPage = () => {
                     </li>
                   </ul>
 
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     ООО ИнтерСвязь оказывает услуги по подключению к Програмному
                     Комплексу Сбис++ Электронная отчетность на основании
                     партнерского договора с законным Правообладателем программы{" "}

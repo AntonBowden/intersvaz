@@ -34,19 +34,39 @@ module.exports = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      backgroundImage: {
+        "radial-light":
+          "radial-gradient(ellipse at top left, var(--tw-gradient-stops))",
+        "radial-dark":
+          "radial-gradient(ellipse at top left, var(--tw-gradient-stops))",
+      },
       colors: {
         current: "currentColor",
         transparent: "transparent",
+        blue: {
+          1: "#002159",
+          2: "#01337D",
+          3: "#03449E",
+          4: "#0552B5",
+          5: "#0967D2",
+          6: "#2186EB",
+          7: "#47A3F3",
+          8: "#7CC4FA",
+          9: "#BAE3FF",
+          10: "#E6F6FF",
+        },
         white: "#FFFFFF",
-        black: "#121723",
-        dark: "#1D2430",
-        primary: "#4A6CF7",
+        light: "#F5F7FA",
+        black: "#1F2933",
+        dark: "#323F4B",
+        primary: "#47A3F3",
         yellow: "#FBB040",
         "bg-color-dark": "#171C28",
+
         "body-color": {
-          DEFAULT: "#788293",
-          dark: "#959CB1",
-        },
+          DEFAULT: "#616E7C",
+          dark: "#CBD2D9",
+        }, //text color
         stroke: {
           stroke: "#E3E8EF",
           dark: "#353943",
@@ -75,6 +95,11 @@ module.exports = {
       dropShadow: {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
       },
+    },
+  },
+  variants: {
+    extend: {
+      backgroundImage: ["dark"],
     },
   },
   plugins: [],

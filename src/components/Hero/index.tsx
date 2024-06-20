@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="bg-radial-light dark:bg-radial-dark dark:from-blue-1 dark:to-blue-4 from-blue-8  to-blue-6 relative z-10 overflow-hidden via-slate-100 pb-16 pt-[120px] dark:via-slate-900 md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden bg-radial-light from-blue-8  via-slate-100 to-blue-6 pb-16 pt-[120px] dark:bg-radial-dark dark:from-blue-1 dark:via-slate-900 dark:to-blue-4 md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute inset-0 -z-10 h-full w-full bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-20 dark:bg-[linear-gradient(to_right,#002159_1px,transparent_1px),linear-gradient(to_bottom,#002159_1px,transparent_1px)]"></div>
+        <div className="absolute inset-0 -z-10 h-full w-full bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:2rem_2rem] opacity-25 dark:bg-[linear-gradient(to_right,#002159_1px,transparent_1px),linear-gradient(to_bottom,#002159_1px,transparent_1px)]"></div>
       </section>
     </>
   );
