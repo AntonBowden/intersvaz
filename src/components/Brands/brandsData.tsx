@@ -18,7 +18,7 @@ const brandsData: Brand[] = [
   {
     id: 3,
     name: "Tensor",
-    href: "https://lineicons.com",
+    href: "https://tensor.ru/",
     image: "/images/partners/tensor.svg",
     imageLight: "/images/partners/tensor-light.svg",
   },

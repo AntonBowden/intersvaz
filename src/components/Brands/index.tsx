@@ -5,7 +5,7 @@ import SectionTitle from "../Common/SectionTitle";
 
 const Brands = () => {
   return (
-    <section className="pt-16">
+    <section className="">
       <div className="container">
         <SectionTitle title="Наши Партнеры" paragraph="" center />
         <div className="-mx-4 flex flex-wrap">

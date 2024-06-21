@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import ProductList from "@/components/ProductList";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -32,6 +32,16 @@ const OnlineRegistersPage = () => {
                     достоверность кода маркировки и передавать сведения с
                     полученными результатами в ГИС мт.`}
                   </p>
+
+                  <div className="relative mb-10 w-full overflow-hidden rounded">
+                    <Image
+                      src="/images/info/online-register.jpg"
+                      alt="image"
+                      width="1000"
+                      height="800"
+                      className="object-fit object-center"
+                    />
+                  </div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Для того, чтобы работать по-новому, организации или
                     индивидуальному предпринимателю необходимо:
@@ -58,39 +68,64 @@ const OnlineRegistersPage = () => {
                       обеспечение для работы
                     </li>
                   </ul>
-
-                  <div className="mb-10 w-full overflow-hidden rounded">
-                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
-                      <Image
-                        src="/images/blog/blog-details-02.jpg"
-                        alt="image"
-                        fill
-                        className="object-cover object-center"
-                      />
-                    </div>
-                  </div>
-
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                     Что мы можем предложить
                   </h3>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Поставить Вам ONLINE кассу на Ваш выбор:
+                    1. Поставить Вам Online кассу на Ваш выбор:
                   </p>
-                  <ul className="mb-10 list-inside list-disc text-body-color">
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Средство криптографической защиты информации
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Носитель Рутокен
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Настройка электронной подписи на Ваше рабочее место
-                    </li>
-                  </ul>
+                  <ProductList />
+
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    2. Поставить и настроить квалифицированную цифровую подпись
+                    и средства криптографической защиты информации.
+                  </p>
+
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    3. Подключить к оператору Фискальных Данных (ОФД).
+                  </p>
+                  <div className="relative mb-10 w-full overflow-hidden rounded">
+                    <Image
+                      src="/images/info/ofd.jpg"
+                      alt="image"
+                      width="1000"
+                      height="800"
+                      className="object-fit object-center"
+                    />
+                  </div>
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    4. Настроим Online кассу.
+                  </p>
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    5. При необходимости подключить кассу к товароучетной
+                    системе Сбис РОЗНИЦА
+                  </p>
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    6. Если Вы занимаетесь продажей алкогольной продукции:
+                  </p>
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    a. Поможем настроить УТМ модуль, если Ваша касса автономная
+                  </p>
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    б. Подключим к системе ЕГАИС через наш портал, если у Вас
+                    фискальный регистратор
+                  </p>
+
+                  <div className="relative mb-10 w-full overflow-hidden rounded">
+                    <Image
+                      src="/images/info/egais.png"
+                      alt="image"
+                      width="1000"
+                      height="800"
+                      className="object-fit object-center"
+                    />
+                  </div>
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    в. Поставим и настроим сканер штрикода
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-8/12"></div>
           </div>
         </div>
       </section>

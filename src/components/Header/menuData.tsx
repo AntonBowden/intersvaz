@@ -15,8 +15,8 @@ const menuData: Menu[] = [
   },
   {
     id: 33,
-    title: "Блог",
-    path: "/blog",
+    title: "Цены",
+    path: "/pricing",
     newTab: false,
   },
   {
@@ -30,6 +30,43 @@ const menuData: Menu[] = [
     title: "Инфо",
     newTab: false,
     submenu: [
+      {
+        id: 51,
+        title: "ЭП для физических лиц",
+        path: "/e-signatures",
+        newTab: false,
+      },
+      {
+        id: 52,
+        title: "Online Кассы и ОФД",
+        path: "/online-registers",
+        newTab: false,
+      },
+      {
+        id: 53,
+        title: "Электронная отчетность",
+        path: "/e-reporting",
+        newTab: false,
+      },
+      {
+        id: 54,
+        title: "Электронные торги",
+        path: "/e-bidding",
+        newTab: false,
+      },
+      {
+        id: 55,
+        title: "Банковская гарантия",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 56,
+        title: "Cкачать ПО",
+        path: "/about",
+        newTab: false,
+      },
+
       {
         id: 41,
         title: "About Page",

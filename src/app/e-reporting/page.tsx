@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -124,9 +125,14 @@ const EReportingPage = () => {
                     ООО ИнтерСвязь оказывает услуги по подключению к Програмному
                     Комплексу Сбис++ Электронная отчетность на основании
                     партнерского договора с законным Правообладателем программы{" "}
-                    <a href="http://ereport.sbis.ru/">ООО "Компания Тензор"</a>.
-                    Оцените все возможности системы Сбис++. Это быстро, просто и
-                    надежно.
+                    <Link
+                      href="http://ereport.sbis.ru/"
+                      className=" text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      {`ООО "Компания Тензор"`}
+                    </Link>
+                    . Оцените все возможности системы Сбис++. Это быстро, просто
+                    и надежно.
                   </p>
                 </div>
               </div>
