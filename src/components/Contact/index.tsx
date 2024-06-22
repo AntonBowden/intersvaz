@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section id="contact" className="overflow-hidden">
+    <section id="contact" className="mt-24 overflow-hidden">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 ">
@@ -19,7 +19,7 @@ const Contact = () => {
                 height="600"
                 object-fit="contain"
               ></iframe>
-              <div className="py-16 md:py-20 lg:py-20">
+              <div className="pt-16 md:pt-20 lg:pt-20">
                 <div className="max-w-[600px]">
                   <div className="mb-9">
                     <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
@@ -37,12 +37,24 @@ const Contact = () => {
                       (4912) 76-39-42, 99-37-07
                     </p>
                   </div>
-                  <div className="mb-1">
+                  <div className="mb-9">
                     <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                       E-mail:
                     </h3>
                     <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                       intersvaz@bk.ru
+                    </p>
+                  </div>
+                  <div className="mb-9">
+                    <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                      VK:
+                    </h3>
+
+                    <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                      <a href="https://vk.com/intersvaz62">
+                        {" "}
+                        https://vk.com/intersvaz62
+                      </a>
                     </p>
                   </div>
                 </div>
