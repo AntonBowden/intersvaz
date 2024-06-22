@@ -57,13 +57,13 @@ const menuData: Menu[] = [
       {
         id: 55,
         title: "Банковская гарантия",
-        path: "/about",
+        path: "/bank-guarantee",
         newTab: false,
       },
       {
         id: 56,
         title: "Cкачать ПО",
-        path: "/about",
+        path: "/download",
         newTab: false,
       },
 

@@ -16,11 +16,14 @@ const ESignaturesPage = () => {
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  Для получения электронной подписи потребуется:
+                <h2 className="mb-8 text-3xl font-bold leading-tight text-primary sm:text-4xl sm:leading-tight">
+                  Электронные подписи для физических лиц
                 </h2>
 
                 <div>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Для получения электронной подписи потребуется:
+                  </p>
                   <ul className="mb-10 list-inside list-disc text-body-color dark:text-body-color-dark">
                     <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Паспорт Гражданина, желающего получить электронную подпись
@@ -38,7 +41,7 @@ const ESignaturesPage = () => {
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/info/signature.webp"
                         alt="image"
                         fill
                         className="object-cover object-center"

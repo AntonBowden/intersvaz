@@ -16,14 +16,14 @@ const EReportingPage = () => {
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                <h2 className="mb-8 text-3xl font-bold leading-tight text-primary sm:text-4xl sm:leading-tight">
                   Электронная отчетность
                 </h2>
 
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     {`ООО "ИнтерСвязь" представляет Вам программный комплекс
-                    «СБиС++ Электронная отчетность», который позволяет
+                    «СБИС++ Электронная отчетность», который позволяет
                     организовать электронный защищенный и юридически значимый
                     документооборот с различными контролирующими органами:`}
                   </p>
@@ -57,7 +57,7 @@ const EReportingPage = () => {
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/info/reporting.jpg"
                         alt="image"
                         fill
                         className="object-cover object-center"
@@ -66,14 +66,14 @@ const EReportingPage = () => {
                   </div>
 
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    «СБиС++ Электронная отчетность» - это универсальный
+                    «СБИС++ Электронная отчетность» - это универсальный
                     инструмент, позволяющий создать отчет, проконтролировать его
                     на наличие ошибок и затем уже отправить его по
                     телекоммуникационным каналам связи.
                   </p>
 
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Система Сбис++ включает:
+                    Система СБИС++ включает:
                   </p>
 
                   <ul className="mb-10 list-inside list-disc text-body-color dark:text-body-color-dark">
@@ -89,7 +89,7 @@ const EReportingPage = () => {
                       налогоплательщика эффективно организуют Вашу работу. Все
                       отчеты имеют привычный вид. Подготовка и отправка отчетов
                       – это всего несколько шагов и пара минут, при этом система
-                      сама подсказывает, какие шаги нужно делать. СБиС совместим
+                      сама подсказывает, какие шаги нужно делать. СБИС совместим
                       с любыми бухгалтерскими программами.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
@@ -123,7 +123,7 @@ const EReportingPage = () => {
 
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     ООО ИнтерСвязь оказывает услуги по подключению к Програмному
-                    Комплексу Сбис++ Электронная отчетность на основании
+                    Комплексу СБИС++ Электронная отчетность на основании
                     партнерского договора с законным Правообладателем программы{" "}
                     <Link
                       href="http://ereport.sbis.ru/"
@@ -131,7 +131,7 @@ const EReportingPage = () => {
                     >
                       {`ООО "Компания Тензор"`}
                     </Link>
-                    . Оцените все возможности системы Сбис++. Это быстро, просто
+                    . Оцените все возможности системы СБИС++. Это быстро, просто
                     и надежно.
                   </p>
                 </div>

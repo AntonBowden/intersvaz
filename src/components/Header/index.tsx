@@ -147,6 +147,16 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <div>
+                  <Link target="_blank" href="https://vk.com/intersvaz62">
+                    <Image
+                      width="30"
+                      height="30"
+                      alt="VK logo"
+                      src="/images/logo/vk-logo.svg"
+                    ></Image>
+                  </Link>
+                </div>
+                <div>
                   <ThemeToggler />
                 </div>
               </div>

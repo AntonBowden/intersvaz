@@ -16,17 +16,22 @@ const AboutPage = () => {
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                <h2 className="mb-8 text-3xl font-bold leading-tight text-primary sm:text-4xl sm:leading-tight">
                   О нас
                 </h2>
 
                 <div>
                   <p className="mb-10 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     ООО "ИнтерСвязь" работает на рынке IT технологий начиная с
-                    2008 года. Имеет все необходимые лицензии ФСБ
-                    http://www.intersvaz.ru/index.php/lisense и проходит
-                    своевременные проверки на осуществление разработки,
-                    производства, распространения шифровальных
+                    2008 года.{" "}
+                    <Link
+                      href="/license"
+                      className="underline hover:text-primary"
+                    >
+                      Имеет все необходимые лицензии ФСБ
+                    </Link>{" "}
+                    и проходит своевременные проверки на осуществление
+                    разработки, производства, распространения шифровальных
                     (криптографических) средств, защищённых информационных и
                     телекоммуникационных систем, выполнения работ, оказания
                     услуг в области шифрования информации, а также технического
@@ -36,7 +41,7 @@ const AboutPage = () => {
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/info/about.jpg"
                         alt="image"
                         fill
                         className="object-cover object-center"
@@ -54,7 +59,7 @@ const AboutPage = () => {
                     операторов ЭДО. Программное обеспечение{" "}
                     <Link
                       href="https://sbis.ru/about/license"
-                      className="underline duration-300 hover:text-primary dark:hover:text-primary"
+                      className="underline hover:text-primary"
                     >
                       СБИС
                     </Link>
@@ -64,14 +69,14 @@ const AboutPage = () => {
                     удостоверяющего центра{" "}
                     <Link
                       href="https://uc-itcom.ru/sertifikaty-i-licenzii"
-                      className="underline duration-300 hover:text-primary dark:hover:text-primary"
+                      className="underline hover:text-primary"
                     >
                       IT COM
                     </Link>
-                    {` `}и СБЕРБАНКА России.
+                    {` `}и СберБанка России.
                   </p>
 
-                  <p className="mb-10 text-base  leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     ООО "ИнтерСвязь" специализируется на внедрении и
                     обслуживании высокотехнологичного программного обеспечения
                     CБИС++ Электронная отчетность и документооборот. Помогаем в
@@ -86,13 +91,13 @@ const AboutPage = () => {
                     внутренний и внешний электронный документооборот.
                   </p>
 
-                  <p className="mb-10 text-base  leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Среди наших клиентов есть государственные и муниципальные
                     учреждения, заводы, КНП, а также большое количество
                     предприятий малого и среднего бизнеса.
                   </p>
 
-                  <p className="mb-10 text-base  leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Будем рады видеть среди них и Вас!
                   </p>
                 </div>

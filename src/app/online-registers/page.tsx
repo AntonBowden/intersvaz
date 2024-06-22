@@ -8,6 +8,44 @@ export const metadata: Metadata = {
   // other metadata
 };
 
+const products = [
+  {
+    id: 1,
+    name: "Фискальный регистратор ATOЛ 30Ф",
+    price: "$48",
+    imageSrc: "/images/products/atol-30f.webp",
+    imageAlt: "Фискальный регистратор ATOЛ 30Ф",
+  },
+  {
+    id: 2,
+    name: "Автономная касса АТОЛ 91Ф",
+    price: "$35",
+    imageSrc: "/images/products/atol-91f.webp",
+    imageAlt: "Автономная касса АТОЛ 91Ф",
+  },
+  {
+    id: 3,
+    name: "Эвотор 7.2",
+    price: "$89",
+    imageSrc: "/images/products/evotor-72.webp",
+    imageAlt: "Эвотор 7.2",
+  },
+  {
+    id: 4,
+    name: "Эвотор 7.3",
+    price: "$35",
+    imageSrc: "/images/products/evotor-73.webp",
+    imageAlt: "Эвотор 7.3",
+  },
+  {
+    id: 5,
+    name: "Эвотор Power",
+    price: "$35",
+    imageSrc: "/images/products/evotor-power.webp",
+    imageAlt: "Эвотор Power",
+  },
+];
+
 const OnlineRegistersPage = () => {
   return (
     <>
@@ -16,12 +54,12 @@ const OnlineRegistersPage = () => {
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                <h2 className="mb-8 text-3xl font-bold leading-tight text-primary sm:text-4xl sm:leading-tight">
                   Online Кассы и ОФД
                 </h2>
 
                 <div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     {`Согласно новой редакции Федерального Закона номер 54 все
                     предприниматели и организации будут должны перейти на новый
                     тип кассовых аппаратов ("онлайн-кассы"), которые отправляют
@@ -42,28 +80,28 @@ const OnlineRegistersPage = () => {
                       className="object-fit object-center"
                     />
                   </div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Для того, чтобы работать по-новому, организации или
                     индивидуальному предпринимателю необходимо:
                   </p>
-                  <ul className="mb-10 list-inside list-disc text-body-color">
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                  <ul className="mb-10 list-inside list-disc text-body-color dark:text-body-color-dark">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Приобрести квалифицированную электронную подпись
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Приобрести онлайн-кассу
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Приобрести фискальный накопитель нового образца
                     </li>
 
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Поставить ее на учет в ФНС
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Заключить договор с ОФД
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Настроить необходимое оборудование и программное
                       обеспечение для работы
                     </li>
@@ -71,17 +109,17 @@ const OnlineRegistersPage = () => {
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                     Что мы можем предложить
                   </h3>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     1. Поставить Вам Online кассу на Ваш выбор:
                   </p>
-                  <ProductList />
+                  <ProductList products={products} />
 
-                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     2. Поставить и настроить квалифицированную цифровую подпись
                     и средства криптографической защиты информации.
                   </p>
 
-                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     3. Подключить к оператору Фискальных Данных (ОФД).
                   </p>
                   <div className="relative mb-10 w-full overflow-hidden rounded">
@@ -93,20 +131,20 @@ const OnlineRegistersPage = () => {
                       className="object-fit object-center"
                     />
                   </div>
-                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     4. Настроим Online кассу.
                   </p>
-                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     5. При необходимости подключить кассу к товароучетной
-                    системе Сбис РОЗНИЦА
+                    системе СБИС РОЗНИЦА
                   </p>
-                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     6. Если Вы занимаетесь продажей алкогольной продукции:
                   </p>
-                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     a. Поможем настроить УТМ модуль, если Ваша касса автономная
                   </p>
-                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     б. Подключим к системе ЕГАИС через наш портал, если у Вас
                     фискальный регистратор
                   </p>
@@ -120,7 +158,7 @@ const OnlineRegistersPage = () => {
                       className="object-fit object-center"
                     />
                   </div>
-                  <p className="my-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p className="my-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     в. Поставим и настроим сканер штрикода
                   </p>
                 </div>
