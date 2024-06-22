@@ -20,13 +20,13 @@ const BankGuaranteePage = () => {
                   Банковская Гарантия
                 </h2>
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  Уважаемые клиенты и посетители! Сообщаем Вам, что ООО
+                  {`Уважаемые клиенты и посетители! Сообщаем Вам, что ООО
                   "ИнтерСвязь" на данный момент может обеспечить выпуск
                   банковских гарантий по 44-ФЗ, 223-ФЗ, 615-ФЗ до 50 млн. рублей
                   в СберБанке. Срок действия гарантии: от 1 дня до 37 месяцев,
                   при этом залог и поручительство не требуется. Для обеспечения
                   большего срока может понадобиться залог, поручительство и
-                  анализ финансового положения компании.
+                  анализ финансового положения компании.`}
                 </p>
 
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">

@@ -22,8 +22,8 @@ const AboutPage = () => {
 
                 <div>
                   <p className="mb-10 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    ООО "ИнтерСвязь" работает на рынке IT технологий начиная с
-                    2008 года.{" "}
+                    {`ООО "ИнтерСвязь" работает на рынке IT технологий начиная с
+                    2008 года.`}{" "}
                     <Link
                       href="/license"
                       className="underline hover:text-primary"
@@ -50,13 +50,13 @@ const AboutPage = () => {
                   </div>
 
                   <p className="mb-10 text-base  leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Наши специалисты имеют соответствующие дипломы о
+                    {`Наши специалисты имеют соответствующие дипломы о
                     профессиональной подготове и переподготовке. ООО
                     "ИнтерСвязь" является лицензированной точкой выдачи УКЭП
                     (Усиленной Квалифицированной Электронной Подписи) по всей
                     России. Являемся партнером ООО "Компания Тензор"
                     разработчиком системы СБИС, включенной в реестр доверенных
-                    операторов ЭДО. Программное обеспечение{" "}
+                    операторов ЭДО. Программное обеспечение`}{" "}
                     <Link
                       href="https://sbis.ru/about/license"
                       className="underline hover:text-primary"
@@ -77,7 +77,7 @@ const AboutPage = () => {
                   </p>
 
                   <p className="mb-10 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    ООО "ИнтерСвязь" специализируется на внедрении и
+                    {`ООО "ИнтерСвязь" специализируется на внедрении и
                     обслуживании высокотехнологичного программного обеспечения
                     CБИС++ Электронная отчетность и документооборот. Помогаем в
                     решениях вопросов по работе на гос площадках для отдельных
@@ -88,7 +88,7 @@ const AboutPage = () => {
                     54-ФЗ , производим настройку и регистрацию в государственных
                     органах. Осуществляем разработку решений в области
                     криптографии, настройку работы с СКЗИ. Поможем наладить Ваш
-                    внутренний и внешний электронный документооборот.
+                    внутренний и внешний электронный документооборот.`}
                   </p>
 
                   <p className="mb-10 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">

@@ -112,8 +112,8 @@ const EBiddingPage = () => {
 
                   <ul className="mb-10 list-inside list-disc text-body-color dark:text-body-color-dark">
                     <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
-                      Система информационной поддержки конкурентных закупок "ТЗС
-                      Электра"
+                      {`Система информационной поддержки конкурентных закупок "ТЗС
+                      Электра"`}
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Ю-Тендер
@@ -125,8 +125,8 @@ const EBiddingPage = () => {
                       Центр Реализации
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
-                      Система закупок продукции для государственных и
-                      муниципальных нужд Ростовской области "Рефери".
+                      {`Система закупок продукции для государственных и
+                      муниципальных нужд Ростовской области "Рефери".`}
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
                       Межрегиональная электронная торговая система (МЭТС)
@@ -242,7 +242,7 @@ const EBiddingPage = () => {
                     поиска тендера и заканчивая моментом заключения контракта.
                   </p>
                   <p className="mb-4 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Мы поможем Вам "от А до Я":
+                    {`Мы поможем Вам "от А до Я":`}
                   </p>
                   <ul className="mb-10 list-inside list-disc text-body-color dark:text-body-color-dark">
                     <li className="mb-2 text-base font-medium text-body-color dark:text-body-color-dark sm:text-lg lg:text-base xl:text-lg">
