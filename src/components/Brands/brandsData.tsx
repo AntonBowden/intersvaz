@@ -25,7 +25,7 @@ const brandsData: Brand[] = [
   {
     id: 4,
     name: "Sberbank",
-    href: "https://tailadmin.com",
+    href: "http://sberbank.ru",
     image: "/images/partners/sber.svg",
     imageLight: "/images/partners/sber-light.svg",
   },

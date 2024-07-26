@@ -83,7 +83,7 @@ const international = [
 
 const sbis = [
   { item: "15 месяцев", price: "3000" },
-  { item: "36 месяцев", price: "6000" },
+  { item: "36 месяцев", price: "6800" },
 ];
 
 const cryptoPro = [
