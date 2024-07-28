@@ -4,8 +4,8 @@ import Order from "@/components/Order";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Order Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
+  title: "Order Page | ИнтерСвязь",
+  description: "This is Order Page",
   // other metadata
 };
 
@@ -14,7 +14,7 @@ const OrderPage = () => {
     <>
       <Breadcrumb
         pageName="Заявка"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Отправьте нам сообщение и наш менеджер свяжется с Вами."
       />
 
       <Order />
