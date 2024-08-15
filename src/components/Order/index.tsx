@@ -39,7 +39,6 @@ const Order = () => {
       });
 
       if (response.ok) {
-        console.log("response ===>", response);
         alert("Message sent successfully!");
         setFormData({ name: "", email: "", message: "", favorite_color: "" });
       } else {
