@@ -5,7 +5,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Банковская Гарантия",
   description: "Банковская Гарантия",
-  // other metadata
+  keywords:
+    "ИнтерСвязь, Банковская Гарантия, Рязань, Электронная подпись, СБИС, Электронные торги, Online кассы",
 };
 
 const BankGuaranteePage = () => {

@@ -6,9 +6,10 @@ import Brands from "@/components/Brands";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+  title: "ООО ИнтерСвязь",
+  description: "ООО ИнтерСвязь главная страница",
+  keywords:
+    "ИнтерСвязь, Рязань, Электронная подпись, СБИС, Электронные торги, Online кассы",
 };
 
 export default function Home() {

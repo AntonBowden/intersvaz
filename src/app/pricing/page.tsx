@@ -5,7 +5,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Цены",
   description: "Цены",
-  // other metadata
+  keywords:
+    "ИнтерСвязь, Рязань, Электронная подпись, СБИС, Электронные торги, Online кассы, цены",
 };
 
 const corporate = [

@@ -5,8 +5,9 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Контакты",
-  description: "This is Contact Page for Startup Nextjs Template",
-  // other metadata
+  description: "Обратная связь",
+  keywords:
+    "ИнтерСвязь, Рязань, Электронная подпись, СБИС, Электронные торги, Online кассы",
 };
 
 const ContactPage = () => {

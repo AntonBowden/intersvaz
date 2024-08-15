@@ -4,7 +4,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Электронные Торги",
   description: "Электронные Торги",
-  // other metadata
+  keywords:
+    "ИнтерСвязь, Рязань, Электронная подпись, СБИС, Электронные торги, Online кассы",
 };
 
 const EBiddingPage = () => {

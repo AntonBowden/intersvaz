@@ -3,9 +3,10 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Электронные Подписи",
-  description: "Электронные Подписи для физических лиц",
-  // other metadata
+  title: "Электронная отчетность",
+  description: "Электронная отчетность",
+  keywords:
+    "ИнтерСвязь, Рязань, Электронная отчетность, Электронная подпись, СБИС, Электронные торги, Online кассы",
 };
 
 const EReportingPage = () => {

@@ -3,9 +3,10 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Электронные Подписи",
-  description: "Электронные Подписи для физических лиц",
-  // other metadata
+  title: "ИнтерСвязь | О нас",
+  description: "ИнтерСвязь | О нас",
+  keywords:
+    "ИнтерСвязь, Рязань, Электронная подпись, СБИС, Электронные торги, Online кассы",
 };
 
 const AboutPage = () => {

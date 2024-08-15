@@ -5,7 +5,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Online Кассы и ОФД",
   description: "Online Кассы и ОФД",
-  // other metadata
+  keywords:
+    "ИнтерСвязь, Рязань, Электронная подпись, СБИС, Электронные торги, Online кассы",
 };
 
 const products = [

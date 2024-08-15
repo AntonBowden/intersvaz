@@ -4,9 +4,10 @@ import Order from "@/components/Order";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Order Page | ИнтерСвязь",
-  description: "This is Order Page",
-  // other metadata
+  title: "ООО ИнтерСвязь",
+  description: "Обратная связь",
+  keywords:
+    "ИнтерСвязь, Рязань, Электронная подпись, СБИС, Электронные торги, Online кассы",
 };
 
 const OrderPage = () => {
