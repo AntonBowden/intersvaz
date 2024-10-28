@@ -35,23 +35,23 @@ const corporate = [
 const electronic = [
   {
     item: "200",
-    price: "1500",
+    price: "1800",
   },
   {
     item: "500",
-    price: "3300",
+    price: "4000",
   },
   {
     item: "1200",
-    price: "6000",
+    price: "7800",
   },
   {
     item: "3000",
-    price: "13500",
+    price: "16500",
   },
   {
     item: "5000",
-    price: "20000",
+    price: "25000",
   },
 ];
 
