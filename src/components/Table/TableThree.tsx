@@ -1,23 +1,23 @@
 const licences = [
   {
     name: "ИП",
-    light: "3300",
-    base: "4300",
+    light: "4000",
+    base: "5700",
   },
   {
     name: "УСН",
-    light: "4300",
-    base: "6000",
+    light: "5500",
+    base: "7300",
   },
   {
     name: "ОСНО",
-    light: "5900",
-    base: "8000",
+    light: "7400",
+    base: "10800",
   },
   {
     name: "БЮДЖЕТ",
-    light: "4300",
-    base: "6000",
+    light: "5500",
+    base: "6500",
   },
 ];
 

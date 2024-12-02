@@ -12,19 +12,19 @@ export const metadata: Metadata = {
 const corporate = [
   {
     item: "1-5 абонентов",
-    price: "10000",
+    price: "12000",
   },
   {
     item: "5-9 абоненов",
-    price: "16000",
+    price: "17500",
   },
   {
     item: "10-25 абоненов",
-    price: "30000",
+    price: "34500",
   },
   {
     item: "26-50 абоненов",
-    price: "40000",
+    price: "40500",
   },
   {
     item: "50-100 абоненов",
